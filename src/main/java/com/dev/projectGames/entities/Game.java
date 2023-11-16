@@ -1,4 +1,4 @@
-package com.dev.projectGames.entity;
+package com.dev.projectGames.entities;
 
 import jakarta.persistence.*;
 
