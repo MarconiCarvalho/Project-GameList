@@ -2,7 +2,7 @@ package com.dev.projectGames.dto;
 
 import com.dev.projectGames.entities.Game;
 
-public class GameMinDto {
+public class GameMinDTO {
 
     private Long id;
     private String title;
@@ -10,11 +10,11 @@ public class GameMinDto {
     private String imgUrl;
     private String shortDescription;
 
-    public GameMinDto(){
+    public GameMinDTO(){
 
     }
 
-    public GameMinDto(Game entity) {
+    public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();

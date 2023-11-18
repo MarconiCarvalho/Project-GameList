@@ -1,2 +1,24 @@
-package com.dev.projectGames.dto;public class GameListDTO {
+package com.dev.projectGames.dto;
+
+import com.dev.projectGames.entities.GameList;
+
+public class GameListDTO {
+    private Long id;
+    private String name;
+    public GameListDTO(){
+
+    }
+
+    public GameListDTO(GameList entity) {
+        id = entity.getId();
+        name = entity.getName();
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
